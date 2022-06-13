@@ -1,0 +1,30 @@
+﻿{
+  "name": "style changer",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "In progres style Picker Extension",
+  "permissions": ["scripting","storage","tabs","alarms"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "https://*/*"
+  ],
+  "action": {
+    "default_title": "Style Extension",
+    "default_popup": "index.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["/jquery-3.6.0.min.js"],
+      "matches": [ "https://*/*" ]
+    }
+  ],
+  "content_scripts": [
+   {
+     "matches": ["https://*/*"],
+     "css": ["/style.css"],
+     "js": ["/jquery-3.6.0.min.js","/menu.js"]
+   }
+ ]
+}

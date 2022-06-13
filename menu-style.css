@@ -1,0 +1,251 @@
+:root {
+    --main-background-color: #ebedf2;
+    --main-border-color: #acb0f2;
+    --main-button-color: #4b50bf;
+    --main-hover-color: #231773;
+    --main-header_footer-color: #6e30f2;
+    --mainPadding: 10px;
+  }
+  .mainMenu input{
+    padding: 0px !important;
+  }
+.mainMenu{
+    direction: ltr !important;
+    text-align: left;
+    background-color: var(--main-background-color);
+    border: 1px solid var(--main-border-color);
+    max-width: 315px;
+    box-sizing: initial !important;
+}
+.mainMenu .text1 {
+  margin-left: 5px;
+  margin-top: 8px;
+  max-width: 315px;
+  max-height: 500px;
+}
+
+
+.mainMenu .text {
+    margin-left: 5px;
+    margin-top: 8px;
+    max-width: 315px;
+    max-height: 500px;
+    /* height: 30px !important; */
+  }
+  
+  .mainMenu .color-and-background {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+
+  .mainMenu .color-and-background label, .mainMenu .colorize label{
+    width: 115px;
+  }
+  
+  .mainMenu h2 {
+    font-size: 20px;
+    margin-top: 1px;
+    text-shadow: 1.3px 1.4px #4b50bf;
+    background: center rgb(228, 213, 228);
+    shape-rendering: optimizeSpeed;
+    text-align: center;
+    border-radius: var(--mainPadding);
+    margin-right: 10px;
+    margin-bottom: 0px !important;
+    height: 28px !important;
+    line-height: 28px !important;
+  }
+  .mainMenu .colorize {
+    margin-left: 5px;
+    margin-top: 8px;
+    max-width: 315px;
+    max-height: 500px;
+    /* text-shadow: 1.3px 1.4px #4b50bf; */
+  }
+  .mainMenu .background-color {
+    margin-left: 5px;
+    margin-top: 5px;
+    max-width: 315px;
+    max-height: 500px;
+  }
+  
+  .mainMenu #text-number {
+    width: 120px;
+    border: none;
+    outline: none;
+    border: 1px solid var(--main-border-color);
+    margin-left: 9px;
+  }
+  .mainMenu #font-familys {
+    width: 120px;
+    border: none solid;
+    outline: none;
+    border: 1px solid var(--main-border-color);
+    margin-left: 9px;
+  }
+  
+  .mainMenu #text-line-height {
+    width: 120px;
+    border: none;
+    outline: none;
+    border: 1px solid var(--main-border-color);
+    margin-right: 15px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  .mainMenu #letterSpacingFont {
+    width: 120px;
+    border: none;
+    outline: none;
+    border: 1px solid var(--main-border-color);
+    margin-right: 15px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  .mainMenu .font-style {
+    margin-top: 43px;
+  }
+
+  .mainMenu .font-style label, .mainMenu .font-weight{
+    float: left;
+  }
+
+  .mainMenu .font-style .buttonsGroup{
+    width: 147px;
+  }
+
+
+  .mainMenu .buttonsGroup{
+    float: right;
+    display: inline-block;
+    width: 120px;
+    margin-left: 3px;
+  }
+
+
+  .clearBoth{
+    clear: both;
+  }
+  .mainMenu #font-sizes {
+    width: 120px;
+    border: none;
+    outline: none;
+    border: 1px solid var(--main-border-color);
+    margin-left: 8px;
+  }
+  .mainMenu .button {
+    width: 30px;
+    height: 20px;
+    border: none;
+    background-color: var(--main-button-color);
+    margin: 8px;
+    border-radius: 5px;
+    margin-left: 18px;
+    cursor: pointer;
+    float: left;
+    justify-content: space-around;
+  
+    /* */
+  }
+  
+  .mainMenu .button1 {
+    width: 44px;
+    height: 20px;
+    border: none;
+    background-color: var(--main-button-color);
+    font-size: 11px;
+    margin: 0px 2px 0px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: inline-start;
+    justify-content: space-around;
+    color: white;
+  }
+  
+  .mainMenu .button3 {
+    margin: 5px 0px 0px 2px;
+  }
+
+  
+  .mainMenu .color {
+    width: 40px;
+    height: 30px;
+    background-color: var(--main-button-color);
+    margin-left: 0px;
+    transition-duration: 1s;
+  
+    /* forced-color-adjust: red; */
+  }
+  
+  .mainMenu .background-color-text {
+    width: 40px;
+    height: 30px;
+  
+    background-color: var(--main-button-color);
+  
+    margin-left: 0px;
+    transition-duration: 1s;
+  
+    /* forced-color-adjust: red; */
+  }
+
+  .mainMenu .button3 {
+    width: 44px;
+    height: 20px;
+    border: none;
+    background-color: var(--main-button-color);
+    margin-right: 2px;
+    font-size: 11px;
+    margin-left: 3px;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: inline-start;
+    justify-content: space-around;
+    color: white;
+  }
+
+  .mainMenu body, .mainMenu button, .mainMenu input, .mainMenu select, .mainMenu td, .mainMenu textarea {
+    text-align: center;
+    direction: ltr;
+  }
+
+  .mainMenu label {
+    width: 100px;
+    display: inline-block;
+}
+
+#hideMenu{
+  float: right;
+  font-size: 20px;
+  color: var(--main-button-color);
+}
+
+#hideMenu:hover{
+  color: var(--main-hover-color);
+  font-size: 21px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.mainMenu *{
+  line-height: 1;
+  font-weight: normal;
+  font: 14px helvetica,Arial,sans-serif;
+  
+}
+
+.mainMenu select{
+  padding: 0px 4px 0px 0px;
+  border: 1px solid #d9d9d9;
+  height: 20px;
+  border-radius: 2px;
+  margin-bottom: 0px;
+}
+
+
+#backgroundColor, #fontColor{
+  margin-bottom: 0px;
+}
